@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "success run",
+      "setup": "",
+      "run": "npm install newman && newman run *collection.json",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    }
+  ]
+}
